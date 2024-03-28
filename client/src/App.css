@@ -1,0 +1,191 @@
+.nav-item {
+  padding: 0 10px;
+}
+
+.img-shadow {
+  box-shadow: #212529 0px -50px 40px 20px inset;
+  background-image: url(https://s.yimg.com/ny/api/res/1.2/Ozr3EyuDV8ziQW6k4q.onQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2023-09/392ae420-4d87-11ee-bbf1-31bd8f2634f9);
+  background-size: contain;
+  height: 200px;
+}
+
+.sourceCSS{
+  position: relative;
+    top: 90%;
+    margin: 30px;
+    text-decoration: none;
+    /* color: #d6d6d6; */
+    font-size: 0.7rem;
+    font-weight: 650;
+}
+
+.sourceImage{
+  padding: 0px 2.5px;
+    margin: 5px;
+    color: red;
+    background-color: white;
+    font-weight: bolder;
+    font-size: smaller;
+    border-radius: 20%;
+}
+
+.card-text {
+  font-size: smaller;
+  padding: 2px 8px;
+  font-family: monospace;
+  color: #b2b0b0;
+}
+
+.card-title {
+  font-family: 'Arial', sans-serif;
+  padding: 2px 8px;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.btn-group-vertical {
+  visibility: hidden;
+}
+
+.button {
+  display: inline-block;
+  background-color: #FF9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s,
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+.button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+
+.button:active {
+  background-color: #555;
+}
+
+.button.visible {
+  opacity: 1;
+  visibility: visible;
+}
+.card-title {
+  font-weight: 900 !important;
+  font-size: 1rem !important;
+  margin-top: 8px;
+}
+
+.card-text{
+  font-size: 0.8rem !important;
+  position: relative;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 1s ease-in-out;
+}
+
+.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.footer-icon {
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-size: 1.5em;
+  line-height: 40px;
+  color: #ffffffa1;
+}
+
+.footer-icon:hover {
+  color: #fff;
+  font-size: 1.8rem;
+  transition: 0.2s linear;
+}
+
+.card-img-top {
+  /* box-shadow: black 0px -50px 60px 15px inset; */
+  background-size: cover; 
+  height: 12rem; 
+  width: 100%; 
+  background-repeat: no-repeat;
+  transition: height 1s
+}
+.card-img-hover {
+  height: 7rem;
+}
+
+.card-text-visible {
+  max-height: 4rem;
+}
+
+.breakingCSS {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+
+.breakingNewsImage {height: 200px;}
+.breakingNewsContainer {
+  padding: 0% ;
+  width: 100% !important;
+}
+
+@media screen and (min-width: 990px) {
+  .breakingNewsContainer {padding: 0% 20%}
+  .breakingNewsImage {height: 383px;}
+}
+
+
+@media screen and (min-width: 760px) and (max-width: 990px) {
+  .breakingNewsContainer {padding: 0% 10%}
+  .breakingNewsImage {height: 273px;}
+}
+
+@media screen and (min-width: 550px) and (max-width: 760px) {
+  .breakingNewsImage {height: 273px;}
+}
+
+@media screen and (min-width: 800px) {
+  .header-from {padding-left: 70px;}
+}
+
+.dropdown-menu {
+  background-color:rgba(69, 68, 68, 0.897) !important;
+  width: max-content !important;
+}
+
+.css-b62m3t-container {
+  width: 190px !important;
+}
+
+.contact-button {
+  padding: 0px 6px;
+   position: fixed; 
+   top: 50%;
+    right: 0px; 
+    transform: translateY(700%) rotate(90deg); 
+    transform-origin: 100% 0%;
+    
+}
+
+@media screen and (min-width: 800px) {
+  .contact-button {transform-origin: 85% 0% }
+}
