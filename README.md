@@ -1,5 +1,7 @@
 **News Application README**
 
+https://github.com/user-attachments/assets/761f4797-76c2-43a3-87ab-eaa422189114
+
 ### Overview
 This React-based News Application provides users with the latest news updates and a seamless browsing experience across devices. It fetches news articles from NewsAPI and offers features like infinite scrolling, filtering, searching, sorting, and feedback submission.
 
